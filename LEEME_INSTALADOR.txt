@@ -1,0 +1,7 @@
+Este paquete NO contiene un .exe ya compilado.
+Permite generar un instalador de Windows x64 desde GitHub Actions (sin instalar Python en las PCs de Pellegrini).
+Subir estos archivos a un repositorio GitHub, ir a Actions > Compilar instalador Windows > Run workflow.
+Descargar el artifact generado y ejecutar el instalador en la PC Windows.
+ALCANCE: versión MANUAL, seleccionar PDF e imprimir. No captura PDFs de Chrome automáticamente.
+IMPORTANTE: no probado físicamente con la Hasar. Verificar controlador y papel 58 mm.
+El ejecutable no está firmado digitalmente; Windows SmartScreen podría advertir.
